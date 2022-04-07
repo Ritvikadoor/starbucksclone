@@ -1,0 +1,604 @@
+*{
+    box-sizing: border-box;
+     
+}
+ 
+body{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    width: 100%;
+    background-color: azure;
+    padding: 25px;
+    position: absolute;
+    top: 0%;
+ 
+}
+header .topspace{
+    display: flex;
+}
+.topright{
+    display: flex;
+}
+.toprightwords{
+    padding-left: 0%;
+    margin-left: 0%;
+    display: flex;
+}
+
+
+
+header a{
+    text-decoration: none;
+    margin-left: 0px;
+    margin-right: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+ 
+}
+main .banner{
+    height: 230px;
+    width: 100%;
+    padding-top: 10%;
+   
+    background-color: rgb(144, 209, 183);
+    text-align: center;
+}
+.full{
+    height: 100%;
+    width: 80%;
+    margin-left: 10%;
+}
+.bannertwo .bannercontainer{
+    width: 100%;
+    height: 150px;
+    display: flex;
+   
+}
+.bannercontainer .container{
+    width: 100%;
+    
+    height: 200px;
+    display: flex;
+    background-color:rgb(1, 54, 1);
+   
+   
+}
+.container .leftsection{
+   
+    display: flex;
+    border-image-width: 0%;
+    width: 50%;
+}
+.container .rightsection{
+    font-weight: 1000;
+    padding-left: 220px;
+    color: aliceblue;
+
+}
+.rightsection .firstbutton{
+    text-decoration: none;
+}
+
+.secondpost{
+    height: 600px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: blue;
+    display: flex;
+   
+    
+}
+
+.left-section{
+    height: 600px;
+    width: 100%;
+    background-color:#bfe3ab;
+    margin-left:0%;
+
+}
+
+.left-section .text{
+    padding-top: 70px;
+    color: rgba(0,0,0,.87);
+    font-size: 30px;
+    text-align: center;
+    
+}
+.right-section{
+    height: 600px;
+    width: 100%;
+    background-color: bisque    ;
+}
+
+.firstdivision{
+    height: 700px;
+    width: 100%;
+   
+    margin-top: 50px;
+    background-color:white;
+}
+.imagethree{
+    display: flex;
+}
+
+.discriptioncofee{
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    display: flex;
+   
+    
+}
+.firstpart{
+    background-color: cadetblue;
+    height: 350px;
+    width: 48.5%;  
+}
+.secondpart{
+    background-color:cadetblue;
+    height: 350px;
+    width: 48.5%;
+    margin-left: 58px;
+}
+.discriptionhead{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+.discriptionwordings{
+    font-size: x-large;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+.secondpart{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+.pinkdiscription{
+    font-size: x-large;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.pink a{
+    text-decoration: none;
+}
+.buttoncoffee a{
+    text-decoration: none;
+}
+.fullsize{
+    height: 400px;
+    width: 100%;
+    background-color: darkblue;
+    display: flex;
+}
+.partone{
+    background-color: #d4e9e2;
+    height: 400px;
+    width: 50%;
+
+}
+.textinside{
+    text-align: center;
+    font-size: x-large;
+    padding-top: 110px;
+}
+.parttwo{
+    background-color: maroon;
+    height: 400px;
+    width: 50%;
+}
+.lastbanner{
+    margin-top: 40px;
+    height: 400px;
+    width: 100%;
+   
+    background-color: darkblue;
+    display: flex;
+}
+.firstpic{
+    background-color: navy;
+    height: 400px;
+    width: 100%;
+}
+
+.secondwordings{
+    background-color: #d4e9e2;
+    height: 400px;
+    width: 100%;
+  
+    
+}
+.heading{
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+    font-size: x-large;
+}
+.paragraph{
+    text-align: center;
+    color: black;
+    padding-top: 5px;
+    font-size: x-large;
+}
+.footer{
+    background-color: whitesmoke;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    
+}
+.headingsfoot{
+    margin-left: 10%;
+    background-color: whitesmoke;
+    height: 400px;
+    width: 10%;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    text-align: left;
+}
+.subheading1{
+    font-size: larger;
+    padding-top: 10px;
+   
+ 
+}
+.subheading1 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading2{
+    font-size: larger;
+    
+  
+}
+.subheading2 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading3{
+    font-size: larger;
+   
+    
+}
+.subheading3 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading4{
+    font-size: larger;
+   
+   
+}
+.subheading4 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading5{
+    font-size: larger;
+    
+    
+}
+.subheading5 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading6{
+    font-size: larger;
+}
+.subheading6 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.headingsfoot2{
+    padding-left: 30px;
+    background-color: whitesmoke;
+    height: 400px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    text-align: left;
+}
+.subheading2-1{
+    font-size: larger;
+    padding-top: 10px;
+   
+ 
+}
+.subheading2-1 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading2-2{
+    font-size: larger;
+    
+  
+}
+.subheading2-2 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading2-3{
+    font-size: larger;
+   
+    
+}
+.subheading2-3 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading2-4{
+    font-size: larger;
+   
+   
+}
+.subheading2-4 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading2-5{
+    font-size: larger;
+    
+    
+}
+.subheading2-5 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading2-6{
+    font-size: larger;
+}
+.subheading2-6 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.headingsfoot3{
+    padding-left: 30px;
+    background-color:whitesmoke;
+    height: 400px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    text-align: left;
+}
+.subheading3-1{
+    font-size: larger;
+    padding-top: 10px;
+   
+ 
+}
+.subheading3-1 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading3-2{
+    font-size: larger;
+    
+  
+}
+.subheading3-2 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading3-3{
+    font-size: larger;
+   
+    
+}
+.subheading3-3 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.headingsfoot4{
+    padding-left: 30px;
+    background-color: whitesmoke;
+    height: 400px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    text-align: left;
+}
+.subheading4-1{
+    font-size: larger;
+    padding-top: 10px;
+   
+ 
+}
+.subheading4-1 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading4-2{
+    font-size: larger;
+    
+  
+}
+.subheading4-2 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading4-3{
+    font-size: larger;
+   
+    
+}
+.subheading4-3 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading4-4{
+    font-size: larger;
+   
+   
+}
+.subheading4-4 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.headingsfoot5{
+    padding-left: 35px;
+    background-color: whitesmoke;
+    height: 400px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+    text-align: left;
+}
+.subheading5-1{
+    font-size: larger;
+    padding-top: 10px;
+   
+ 
+}
+.subheading5-1 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading5-2{
+    font-size: larger;
+    
+  
+}
+.subheading5-2 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading5-3{
+    font-size: larger;
+   
+    
+}
+.subheading5-3 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading5-4{
+    font-size: larger;
+   
+   
+}
+.subheading5-4 a{
+    text-decoration: none;
+    color: black;
+}
+.subheading5-5{
+    font-size: larger;
+    
+    
+}
+
+.subheading5-5 a{
+    text-decoration: none;
+    color: black;
+}
+.line{
+  display: flex;
+}
+.lastfooter{
+    background-color: whitesmoke;
+    height: 150px;
+    width: 100%;
+}
+.icons{
+    
+    display: flex;
+    color: black;
+}
+.spotifyicon{
+    size: 30px;
+    font-size: xx-large; 
+}
+.facebook{
+    padding-left: 10px;
+    font-size: xx-large;
+}
+.pintrest{
+    padding-left: 10px;
+    font-size: xx-large;
+}
+.instagram{
+    padding-left: 10px;
+    font-size: xx-large;
+}
+.youtube{
+    padding-left: 10px;
+    font-size: xx-large;
+}
+.twitter{
+    padding-left: 10px;
+    font-size: xx-large;
+}
+.lastwords{
+    display: flex;
+    width: 100%;
+    padding-left: 150px;
+}
+.privacy{
+    padding-left: 20px;
+}
+.terms{
+    padding-left: 10px;
+}
+.ca{
+    padding-left: 10px;
+}
+.cokiee{
+    padding-left: 10px;
+}
+.space{
+    padding-left: 20px;
+    display: flex;
+}
+.inline{
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
